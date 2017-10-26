@@ -98,7 +98,7 @@ This diagram summarizes a componentized audio installation.
 
 ![The componentized audio stack showing DSP driver codec and APOs](images/audio-componentized-stack-diagram.png)
 
-A separate extension INF file is used for each software component. For more information, see 
+A separate extension INF file can be used for each software component, or one extension driver targeted at the system can be used to configure all audio subsystem components. For more information, see 
 [Using an Extension INF File](https://docs.microsoft.com/windows-hardware/drivers/install/using-an-extension-inf-file).
 
 An extension INF file must be a universal INF file. For more information, see [Using a Universal INF File](https://docs.microsoft.com/windows-hardware/drivers/install/using-a-universal-inf-file).
